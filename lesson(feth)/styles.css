@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  justify-content: center;
+}
+
+
+
+
+.div_size {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+background-color: rgb(7, 230, 152);
+border: 1px solid black;
+}
+
+
+.active {
+color: orange
+}
+
+.card p{
+  text-align: center;
+}
